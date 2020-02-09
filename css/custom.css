@@ -1,0 +1,162 @@
+.heading{
+	text-align: center;
+}
+
+/*.small-box{
+	position: relative;
+	left: 1240px;
+	border: 1px solid black;
+	width:120px;
+	height: 30px;
+	text-align: center;
+	padding-top: 8px;
+	
+}
+*/
+.chicken{
+	background-color: pink;
+}
+
+.beef{
+	background-color: red;
+	color: white;
+}
+
+.sushi{
+	background-color: yellow;
+}
+
+@media screen and (min-width: 992px){
+
+		.box1{
+				background-color: grey;
+				width: 30%;
+				height: 300px;
+				display: inline-block;
+				border: 1px solid black;
+				margin-left: 20px;
+				margin-right: 20px;
+		}
+		.box2{
+				background-color: grey;
+				width: 30%;
+				height: 300px;
+				display: inline-block;
+				margin-right: 20px;
+		}
+		.box3{
+				background-color: grey;
+				width: 30%;
+				height: 300px;
+				display: inline-block;
+		}
+		h4{
+			width: 20%;
+			float: right;
+			border: 1px solid black;
+			text-align: center;
+			margin-top: 0px;
+		}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.box1{
+				background-color: grey;
+				width: 46.5%;
+				height: 300px;
+				display: inline-block;
+				border: 1px solid black;
+				margin-left: 20px;
+				margin-right: 20px;
+				margin-bottom: 20px;
+		}
+		.box2{
+				background-color: grey;
+				width: 46.5%;
+				height: 300px;
+				display: inline-block;
+				margin-right: 20px;
+				margin-bottom: 20px;
+		}
+		.box3{
+				background-color: grey;
+				width: 95.5%;
+				height: 300px;
+				display: inline-block;
+				margin-right: 20px;
+				margin-left: 20px;
+		}
+		.chicken{
+			width: 20%;
+			float: right;
+			border: 1px solid black;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.beef{
+			width: 20%;
+			float: right;
+			border: 1px solid black;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.sushi{
+			width: 8%;
+			float: right;
+			margin-top: 0px;
+			text-align: center;
+		}
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+	.box1{
+				background-color: grey;
+				width: 95%;
+				height: 300px;
+				border: 1px solid black;
+				margin-left: 20px;
+				margin-right: 20px;
+		}
+		.box2{
+				background-color: grey;
+				width: 95%;
+				height: 300px;
+				margin-left: 20px;
+				border: 1px solid black;
+				margin-right: 20px;
+				margin-top: 10px;
+		}
+		.box3{
+				background-color: grey;
+				width: 95%;
+				height: 300px;
+				border: 1px solid black;
+				margin-left: 20px;
+				margin-right: 20px;
+				margin-top: 10px;
+		}
+		.chicken{
+			width: 20%;
+			margin-top: 0px;
+			float: right;
+			text-align: center;
+			border: 1px solid black;
+
+		}
+		.beef{
+			width: 20%;
+			margin-top: 0px;
+			float: right;
+			text-align: center;
+			border: 1px solid black;
+		}
+		.sushi{
+			width: 20%;
+			float: right;
+			text-align: center;
+			border: 1px solid black;
+			margin-top: 0px;
+		}
+}
+
